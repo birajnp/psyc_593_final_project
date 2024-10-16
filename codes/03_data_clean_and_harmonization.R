@@ -28,94 +28,13 @@ df <- mutate(df,
 #                                       ifelse(q48 == "I do not know",0 , q48)))))
 
 
+
 #outcome variables
-# ever sexual intercourse q44 (yes no to binary) no = 0 and yes = 1
-
-df <- mutate(df,
-             ever_sexual_intercourse = ifelse(q44 == "No" , "0",
-                                         ifelse(q44 == "Yes", "1", q44)))
-table(df$q45)
-
-
-table(data_nepal$q45)
 
 
 #outcome variables
-# condom use q47 (yes no to binary) no = 0 and yes = 1
-df <- mutate(df,
-             condom_use = ifelse(q47 == "No" , 0,
-                            ifelse(q47 == "Yes", 1,
-                             ifelse(q47 == "Never had sex", "Never had sex", q47))))
-
-
-
-
-
-
-
-summary(df$q47)
-table(df$q47)
-table(df$condom_use)
-
-
-
-
-
-
-# outcome variable
-# Birth control used q48 (yes no to binary) no = 0 and yes = 1
-df <- mutate(df,
-             birthcontrol_use = ifelse(q48 == "No" , 0,
-                                 ifelse(q48 == "Yes", 1,
-                                    ifelse(q48 == "Never had sex", "Never had sex",
-                                      ifelse(q48 == "I do not know",0 , q48)))))
-summary(df$q48)
-table(df$birthcontrol_use)
-
-
-# first sexual before the age of 14
-
-
-df <- mutate(df,
-             sex_before_14 = ifelse(q45 == "Never had sex" , "0",
-                                       ifelse(q45 == "11 years old or younger", 1,
-                                       ifelse(q45 == "12 years old", 1,
-                                       ifelse(q45 == "13 years old", 1,
-                                       ifelse(q45 == '14 years old', 0,
-                                       ifelse(q45 == '15 years old', 0,
-                                       ifelse(q45 == '16 or 17 years old',0,
-                                       ifelse(q45 == '18 years old or older', 0, q45)))))))))
-
-## risky sexual behavior  among adolesence 1 = risky behaviour 0 == not             
-df <- mutate(df,
-             risky_sexual_behaviour = ifelse(sex_before_14 == 1 | condom_use == 0 | 
-                                               birthcontrol_use == 0, 1, 0 ))
-             
-
-
-table(df$condom_use)
-table(df$birthcontrol_use)
-table(df$sex_before_14)
-
-table(df$risky_sexual_behaviour)
-                          
-
-
-
-
-
-
-
-table(df$q6)
-
-table(df$q44)
-
-
-
-table(df$q45)
-
-table(data_bangladesh$q45)
-table(data_bangladesh$qn44)
+table(df$q16)
+table(df$q17)
 
 
 
