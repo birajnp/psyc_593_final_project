@@ -1,4 +1,4 @@
-
+library(here)
 source(here("codes/03_data_clean_and_harmonization.R"))
 
 
@@ -28,13 +28,11 @@ summary_stats <- svy_dataset %>%
                 'q20', 'q22', 'q23',                               # bullied, Mental health: Felt lonely, could not sleep
                 'q24', 'q25', 'q26', 'q27',   #
                 'q28', 'q29', 'q30', 'q33',   # Tobacco use: Initiation, current use, cessation, exposure, parental use
-                'q34', 'q35',  # Alcohol use: Initiation, current use, frequency, source, effects
+                 
                 'q40','q41', 'q42', 
                 'q56', 'q57', 'q58',        # parent understand problem, know about free time, go through things
                 'q53', 'q54', # CLASS ATTENDANCE AND PEER SUPPORT
-                
-                # outcome Variables
-                'q44', 'q45', 'q47', 'q48'),
+            ),
     statistic = list(all_categorical() ~ "{n} ({p})", all_continuous() ~ "{mean} ({sd})"),
     digits = list(all_categorical() ~ c(0,1), all_continuous() ~ c(1,1,1))
   ) %>%
