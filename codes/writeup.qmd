@@ -8,7 +8,7 @@ format:
   html:
     embed-resources: true
     self_contained: true 
-    output_dir: "../../doc/"
+    output_dir: "../../documents/"
 knitr: 
   opts_chunk:
       fig.path: "../../results/"
