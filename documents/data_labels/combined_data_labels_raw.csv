@@ -1,0 +1,775 @@
+Column_Name,Label,Dataset
+Q1,Custom Age,Afghanisthan
+Q2,Sex,Afghanisthan
+Q3,In what grade are you,Afghanisthan
+Q4,How tall are you,Afghanisthan
+Q5,How much do you weigh,Afghanisthan
+Q6,How often went hungry,Afghanisthan
+Q7,No fruit eating,Afghanisthan
+Q8,No vegetable eating,Afghanisthan
+Q9,Soft drinks,Afghanisthan
+Q10,Fast food eating,Afghanisthan
+Q11,Tooth brushing,Afghanisthan
+Q12,Hand washing before eating,Afghanisthan
+Q13,Hand washing after toilet,Afghanisthan
+Q14,Hand washing with soap,Afghanisthan
+Q15,Physically attacked,Afghanisthan
+Q16,Physical fighting,Afghanisthan
+Q17,Seriously injured,Afghanisthan
+Q18,Serious injury broken bone,Afghanisthan
+Q19,Serious injury motor vehicle,Afghanisthan
+Q20,Bullied,Afghanisthan
+Q21,Bullied by hitting,Afghanisthan
+Q22,Felt lonely,Afghanisthan
+Q23,Could not sleep,Afghanisthan
+Q24,Considered suicide,Afghanisthan
+Q25,Made a suicide plan,Afghanisthan
+Q26,Attempted suicide,Afghanisthan
+Q27,Close friends,Afghanisthan
+Q28,Initiation of cigarette use,Afghanisthan
+Q29,Current cigarette use,Afghanisthan
+Q30,Other tobacco use,Afghanisthan
+Q31,Smoking cessation,Afghanisthan
+Q32,Smoking in their presence,Afghanisthan
+Q33,Parental tobacco use,Afghanisthan
+Q40,Initiation of drug use,Afghanisthan
+Q41,Ever marijuana use,Afghanisthan
+Q42,Current marijuana use,Afghanisthan
+Q43,Amphethamine or methamphetamine use,Afghanisthan
+Q49,Physical activity >= 5 days,Afghanisthan
+Q50,Walk or bike to school,Afghanisthan
+Q51,PE attendance,Afghanisthan
+Q52,Sitting activities,Afghanisthan
+Q53,Miss school no permission,Afghanisthan
+Q54,Other students kind and helpful,Afghanisthan
+Q55,Parents check homework,Afghanisthan
+Q56,Parents understand problems,Afghanisthan
+Q57,Parents know about free time,Afghanisthan
+Q58,Parents go through their things,Afghanisthan
+QN6,Most of the time or always went hungry,Afghanisthan
+QN7,Did not eat fruit,Afghanisthan
+QN8,Did not eat vegetables,Afghanisthan
+QN9,Did not drink carbonated soft drinks,Afghanisthan
+QN10,Did not eat food from a fast food restaurant,Afghanisthan
+QN11,Usually cleaned or brushed their teeth,Afghanisthan
+QN12,Never or rarely washed their hands before eating,Afghanisthan
+QN13,Never or rarely washed their hands after using the toilet or latrine,Afghanisthan
+QN14,Never or rarely used soap when washing their hands,Afghanisthan
+QN15,Were physically attacked,Afghanisthan
+QN16,Were in a physical fight,Afghanisthan
+QN17,Were seriously injured,Afghanisthan
+QN18,Reported that their most serious injury was a broken bone or dislocated joint,Afghanisthan
+QN19,Reported that their most serious injury was caused by a motor vehicle accident o,Afghanisthan
+QN20,Were bullied,Afghanisthan
+QN21,"Were bullied most often by being hit, kicked, pushed, shoved around, or locked i",Afghanisthan
+QN22,Most of the time or always felt lonely,Afghanisthan
+QN23,Most of the time or always were so worried about something that they could not s,Afghanisthan
+QN24,Seriously considered attempting suicide,Afghanisthan
+QN25,Made a plan about how they would attempt suicide,Afghanisthan
+QN26,Attempted suicide,Afghanisthan
+QN27,Did not have any close friends,Afghanisthan
+QN28,Tried a cigarette before age 14 years,Afghanisthan
+QN29,Currently smoked cigarettes,Afghanisthan
+QN30,Currently used any tobacco products other than cigarettes,Afghanisthan
+QN31,Tried to quit smoking cigarettes,Afghanisthan
+QN32,Reported that people smoked in their presence,Afghanisthan
+QN33,Had parents or guardians who used any form of tobacco,Afghanisthan
+QN40,Used drugs before age 14 years,Afghanisthan
+QN41,Ever used marijuana,Afghanisthan
+QN42,Currently used marijuana,Afghanisthan
+QN43,Ever used amphethamines or methamphetamines,Afghanisthan
+QN49,Were not physically active,Afghanisthan
+QN50,Did not walk or ride a bicycle to or from school,Afghanisthan
+QN51,Did not attend physical education classes,Afghanisthan
+QN52,Spent three or more hours per day doing sitting activities,Afghanisthan
+QN53,Missed classes or school without permission,Afghanisthan
+QN54,Reported that most of the students in their school were most of the time or alwa,Afghanisthan
+QN55,Reported that their parents or guardians most of the time or always checked to s,Afghanisthan
+QN56,Reported that their parents or guardians most of the time or always understood t,Afghanisthan
+QN57,Reported that their parents or guardians most of the time or always really knew,Afghanisthan
+QN58,Reported that their parents or guardians never or rarely went through their thin,Afghanisthan
+qnunwtg,Were underweight,Afghanisthan
+qnowtg,Were overweight,Afghanisthan
+qnobeseg,Were obese,Afghanisthan
+qnfrlg,Usually ate fruit less than one time per day,Afghanisthan
+qnfr1g,Usually ate fruit one or more times per day,Afghanisthan
+qnfr2g,Usually ate fruit two or more times per day,Afghanisthan
+qnfr3g,Usually ate fruit three or more times per day,Afghanisthan
+qnveglg,Usually ate vegetables less than one time per day,Afghanisthan
+qnveg1g,Usually ate vegetables one or more times per day,Afghanisthan
+qnveg2g,Usually ate vegetables two or more times per day,Afghanisthan
+qnveg3g,Usually ate vegetables three or more times per day,Afghanisthan
+qnsodalg,Usually drank carbonated soft drinks less than one time per day,Afghanisthan
+qnsoda1g,Usually drank carbonated soft drinks one or more times per day,Afghanisthan
+qnsoda2g,Usually drank carbonated soft drinks two or more times per day,Afghanisthan
+qnsoda3g,Usually drank carbonated soft drinks three or more times per day,Afghanisthan
+qnff1g,Ate food from a fast food restaurant one or more days,Afghanisthan
+qnff2g,Ate food from a fast food restaurant two or more days,Afghanisthan
+qnff3g,Ate food from a fast food restaurant three or more days,Afghanisthan
+qnc2g,Were bullied and could not sleep at night,Afghanisthan
+qntob2g,Currently used any tobacco product,Afghanisthan
+qnnotb2g,Did not currently use any tobacco products,Afghanisthan
+qnpa5g,Were physically active at least 60 minutes per day on 5 or more days,Afghanisthan
+qnpa7g,Were physically active at least 60 minutes per day on all 7 days,Afghanisthan
+qnpe3g,Attended physical education classes on three or more days,Afghanisthan
+qnpe5g,Attended physical education classes on five or more days,Afghanisthan
+weight,,Afghanisthan
+stratum,,Afghanisthan
+psu,,Afghanisthan
+Q1,Custom Age,Bangladesh
+Q2,Sex,Bangladesh
+Q3,In what grade are you,Bangladesh
+Q4,How tall are you,Bangladesh
+Q5,How much do you weigh,Bangladesh
+Q6,How often went hungry,Bangladesh
+Q7,No fruit eating,Bangladesh
+Q8,No vegetable eating,Bangladesh
+Q9,Soft drinks,Bangladesh
+Q10,Fast food eating,Bangladesh
+Q11,Tooth brushing,Bangladesh
+Q12,Hand washing before eating,Bangladesh
+Q13,Hand washing after toilet,Bangladesh
+Q14,Hand washing with soap,Bangladesh
+Q15,Physically attacked,Bangladesh
+Q16,Physical fighting,Bangladesh
+Q17,Seriously injured,Bangladesh
+Q18,Serious injury broken bone,Bangladesh
+Q20,Bullied,Bangladesh
+Q22,Felt lonely,Bangladesh
+Q23,Could not sleep,Bangladesh
+Q24,Considered suicide,Bangladesh
+Q25,Made a suicide plan,Bangladesh
+Q26,Attempted suicide,Bangladesh
+Q27,Close friends,Bangladesh
+Q28,Initiation of cigarette use,Bangladesh
+Q29,Current cigarette use,Bangladesh
+Q30,Other tobacco use,Bangladesh
+Q31,Smoking cessation,Bangladesh
+Q32,Smoking in their presence,Bangladesh
+Q33,Parental tobacco use,Bangladesh
+Q34,Initiation of alcohol use,Bangladesh
+Q35,Current alcohol use,Bangladesh
+Q36,Drank 2+ drinks,Bangladesh
+Q37,Source of alchohol,Bangladesh
+Q38,Really drunk,Bangladesh
+Q39,Trouble from drinking,Bangladesh
+Q40,Initiation of drug use,Bangladesh
+Q41,Ever marijuana use,Bangladesh
+Q42,Current marijuana use,Bangladesh
+Q43,Amphethamine or methamphetamine use,Bangladesh
+Q44,Ever sexual intercourse,Bangladesh
+Q45,Sex before 14 years,Bangladesh
+Q47,Condom use,Bangladesh
+Q48,Birth control used,Bangladesh
+Q49,Physical activity >= 5 days,Bangladesh
+Q50,Walk or bike to school,Bangladesh
+Q51,PE attendance,Bangladesh
+Q52,Sitting activities,Bangladesh
+Q53,Miss school no permission,Bangladesh
+Q54,Other students kind and helpful,Bangladesh
+Q55,Parents check homework,Bangladesh
+Q56,Parents understand problems,Bangladesh
+Q57,Parents know about free time,Bangladesh
+Q58,Parents go through their things,Bangladesh
+QN6,Most of the time or always went hungry,Bangladesh
+QN7,Did not eat fruit,Bangladesh
+QN8,Did not eat vegetables,Bangladesh
+QN9,Did not drink carbonated soft drinks,Bangladesh
+QN10,Did not eat food from a fast food restaurant,Bangladesh
+QN11,Usually cleaned or brushed their teeth,Bangladesh
+QN12,Never or rarely washed their hands before eating,Bangladesh
+QN13,Never or rarely washed their hands after using the toilet or latrine,Bangladesh
+QN14,Never or rarely used soap when washing their hands,Bangladesh
+QN15,Were physically attacked,Bangladesh
+QN16,Were in a physical fight,Bangladesh
+QN17,Were seriously injured,Bangladesh
+QN18,Reported that their most serious injury was a broken bone or dislocated joint,Bangladesh
+QN20,Were bullied,Bangladesh
+QN22,Most of the time or always felt lonely,Bangladesh
+QN23,Most of the time or always were so worried about something that they could not s,Bangladesh
+QN24,Seriously considered attempting suicide,Bangladesh
+QN25,Made a plan about how they would attempt suicide,Bangladesh
+QN26,Attempted suicide,Bangladesh
+QN27,Did not have any close friends,Bangladesh
+QN28,Tried a cigarette before age 14 years,Bangladesh
+QN29,Currently smoked cigarettes,Bangladesh
+QN30,Currently used any tobacco products other than cigarettes,Bangladesh
+QN31,Tried to quit smoking cigarettes,Bangladesh
+QN32,Reported that people smoked in their presence,Bangladesh
+QN33,Had parents or guardians who used any form of tobacco,Bangladesh
+QN34,Drank alcohol before age 14 years,Bangladesh
+QN35,Currently drank alcohol,Bangladesh
+QN36,Usually drank two or more drinks per day,Bangladesh
+QN37,Usually obtained the alcohol they drank from friends,Bangladesh
+QN38,Ever drank so much alcohol that they were really drunk,Bangladesh
+QN39,"Ever got into trouble with their family or friends, missed school, or got into f",Bangladesh
+QN40,Used drugs before age 14 years,Bangladesh
+QN41,Ever used marijuana,Bangladesh
+QN42,Currently used marijuana,Bangladesh
+QN43,Ever used amphethamines or methamphetamines,Bangladesh
+QN44,Ever had sexual intercourse,Bangladesh
+QN45,Had sexual intercourse before age 14 years,Bangladesh
+QN47,Used a condom,Bangladesh
+QN48,Used a method of birth control other than condoms,Bangladesh
+QN49,Were not physically active,Bangladesh
+QN50,Did not walk or ride a bicycle to or from school,Bangladesh
+QN51,Did not attend physical education classes,Bangladesh
+QN52,Spent three or more hours per day doing sitting activities,Bangladesh
+QN53,Missed classes or school without permission,Bangladesh
+QN54,Reported that most of the students in their school were most of the time or alwa,Bangladesh
+QN55,Reported that their parents or guardians most of the time or always checked to s,Bangladesh
+QN56,Reported that their parents or guardians most of the time or always understood t,Bangladesh
+QN57,Reported that their parents or guardians most of the time or always really knew,Bangladesh
+QN58,Reported that their parents or guardians never or rarely went through their thin,Bangladesh
+qnunwtg,Were underweight,Bangladesh
+qnowtg,Were overweight,Bangladesh
+qnobeseg,Were obese,Bangladesh
+qnfrlg,Usually ate fruit less than one time per day,Bangladesh
+qnfr1g,Usually ate fruit one or more times per day,Bangladesh
+qnfr2g,Usually ate fruit two or more times per day,Bangladesh
+qnfr3g,Usually ate fruit three or more times per day,Bangladesh
+qnveglg,Usually ate vegetables less than one time per day,Bangladesh
+qnveg1g,Usually ate vegetables one or more times per day,Bangladesh
+qnveg2g,Usually ate vegetables two or more times per day,Bangladesh
+qnveg3g,Usually ate vegetables three or more times per day,Bangladesh
+qnsodalg,Usually drank carbonated soft drinks less than one time per day,Bangladesh
+qnsoda1g,Usually drank carbonated soft drinks one or more times per day,Bangladesh
+qnsoda2g,Usually drank carbonated soft drinks two or more times per day,Bangladesh
+qnsoda3g,Usually drank carbonated soft drinks three or more times per day,Bangladesh
+qnff1g,Ate food from a fast food restaurant one or more days,Bangladesh
+qnff2g,Ate food from a fast food restaurant two or more days,Bangladesh
+qnff3g,Ate food from a fast food restaurant three or more days,Bangladesh
+qnc2g,Were bullied and could not sleep at night,Bangladesh
+qntob2g,Currently used any tobacco product,Bangladesh
+qnnotb2g,Did not currently use any tobacco products,Bangladesh
+qnbcanyg,Used a method of birth control,Bangladesh
+qnc1g,Ever had sexual intercourse among students who had drank so much alcohol that th,Bangladesh
+qnpa5g,Were physically active at least 60 minutes per day on 5 or more days,Bangladesh
+qnpa7g,Were physically active at least 60 minutes per day on all 7 days,Bangladesh
+qnpe3g,Attended physical education classes on three or more days,Bangladesh
+qnpe5g,Attended physical education classes on five or more days,Bangladesh
+weight,,Bangladesh
+stratum,,Bangladesh
+psu,,Bangladesh
+Q1,Custom Age,Bhutan
+Q2,Sex,Bhutan
+Q3,In what grade are you,Bhutan
+Q4,How tall are you,Bhutan
+Q5,How much do you weigh,Bhutan
+Q6,How often went hungry,Bhutan
+Q7,No fruit eating,Bhutan
+Q8,No vegetable eating,Bhutan
+Q9,Soft drinks,Bhutan
+Q10,Fast food eating,Bhutan
+Q11,Tooth brushing,Bhutan
+Q12,Hand washing before eating,Bhutan
+Q13,Hand washing after toilet,Bhutan
+Q14,Hand washing with soap,Bhutan
+Q15,Physically attacked,Bhutan
+Q16,Physical fighting,Bhutan
+Q17,Seriously injured,Bhutan
+Q18,Serious injury type,Bhutan
+Q19,Serious injury cause,Bhutan
+Q20,Bullied,Bhutan
+Q21,Bullied how,Bhutan
+Q22,Felt lonely,Bhutan
+Q23,Could not sleep,Bhutan
+Q24,Considered suicide,Bhutan
+Q25,Made a suicide plan,Bhutan
+Q26,Attempted suicide,Bhutan
+Q27,Close friends,Bhutan
+Q28,Initiation of cigarette use,Bhutan
+Q29,Current cigarette use,Bhutan
+Q30,Other tobacco use,Bhutan
+Q31,Smoking cessation,Bhutan
+Q32,Smoking in their presence,Bhutan
+Q33,Parental tobacco use,Bhutan
+Q34,Initiation of alcohol use,Bhutan
+Q35,Current alcohol use,Bhutan
+Q36,Drank 2+ drinks,Bhutan
+Q37,Source of alchohol,Bhutan
+Q38,Really drunk,Bhutan
+Q39,Trouble from drinking,Bhutan
+Q40,Initiation of drug use,Bhutan
+Q41,Ever marijuana use,Bhutan
+Q42,Current marijuana use,Bhutan
+Q43,Amphethamine or methamphetamine use,Bhutan
+Q44,Ever sexual intercourse,Bhutan
+Q45,Age first had sex,Bhutan
+Q46,Number of sex partners,Bhutan
+Q47,Condom use,Bhutan
+Q48,Birth control used,Bhutan
+Q49,Physical activity past 7 days,Bhutan
+Q50,Walk or bike to school,Bhutan
+Q51,PE attendance,Bhutan
+Q52,Sitting activities,Bhutan
+Q53,Miss school no permission,Bhutan
+Q54,Other students kind and helpful,Bhutan
+Q55,Parents check homework,Bhutan
+Q56,Parents understand problems,Bhutan
+Q57,Parents know about free time,Bhutan
+Q58,Parents go through their things,Bhutan
+QN6,Most of the time or always went hungry,Bhutan
+QN7,Did not eat fruit,Bhutan
+QN8,Did not eat vegetables,Bhutan
+QN9,Did not drink carbonated soft drinks,Bhutan
+QN10,Did not eat food from a fast food restaurant,Bhutan
+QN11,Usually cleaned or brushed their teeth,Bhutan
+QN12,Never or rarely washed their hands before eating,Bhutan
+QN13,Never or rarely washed their hands after using the toilet or latrine,Bhutan
+QN14,Never or rarely used soap when washing their hands,Bhutan
+QN15,Were physically attacked,Bhutan
+QN16,Were in a physical fight,Bhutan
+QN17,Were seriously injured,Bhutan
+QN18,Reported that their most serious injury was a broken bone or dislocated joint,Bhutan
+QN19,Reported that their most serious injury was caused by a motor vehicle accident o,Bhutan
+QN20,Were bullied,Bhutan
+QN21,"Were bullied most often by being hit, kicked, pushed, shoved around, or locked i",Bhutan
+QN22,Most of the time or always felt lonely,Bhutan
+QN23,Most of the time or always were so worried about something that they could not s,Bhutan
+QN24,Seriously considered attempting suicide,Bhutan
+QN25,Made a plan about how they would attempt suicide,Bhutan
+QN26,Attempted suicide,Bhutan
+QN27,Did not have any close friends,Bhutan
+QN28,Tried a cigarette before age 14 years,Bhutan
+QN29,Currently smoked cigarettes,Bhutan
+QN30,Currently used any tobacco products other than cigarettes,Bhutan
+QN31,Tried to quit smoking cigarettes,Bhutan
+QN32,Reported that people smoked in their presence,Bhutan
+QN33,Had parents or guardians who used any form of tobacco,Bhutan
+QN34,Drank alcohol before age 14 years,Bhutan
+QN35,Currently drank alcohol,Bhutan
+QN36,Usually drank two or more drinks per day,Bhutan
+QN37,Usually obtained the alcohol they drank from friends,Bhutan
+QN38,Ever drank so much alcohol that they were really drunk,Bhutan
+QN39,"Ever got into trouble with their family or friends, missed school, or got into f",Bhutan
+QN40,Used drugs before age 14 years,Bhutan
+QN41,Ever used marijuana,Bhutan
+QN42,Currently used marijuana,Bhutan
+QN43,Ever used amphethamines or methamphetamines,Bhutan
+QN44,Ever had sexual intercourse,Bhutan
+QN45,Had sexual intercourse before age 14 years,Bhutan
+QN46,Had sexual intercourse with two or more persons,Bhutan
+QN47,Used a condom,Bhutan
+QN48,Used a method of birth control other than condoms,Bhutan
+QN49,Were not physically active,Bhutan
+QN50,Did not walk or ride a bicycle to or from school,Bhutan
+QN51,Did not attend physical education classes,Bhutan
+QN52,Spent three or more hours per day doing sitting activities,Bhutan
+QN53,Missed classes or school without permission,Bhutan
+QN54,Reported that most of the students in their school were most of the time or alwa,Bhutan
+QN55,Reported that their parents or guardians most of the time or always checked to s,Bhutan
+QN56,Reported that their parents or guardians most of the time or always understood t,Bhutan
+QN57,Reported that their parents or guardians most of the time or always really knew,Bhutan
+QN58,Reported that their parents or guardians never or rarely went through their thin,Bhutan
+qnunwtg,Were underweight,Bhutan
+qnowtg,Were overweight,Bhutan
+qnobeseg,Were obese,Bhutan
+qnfrlg,Usually ate fruit less than one time per day,Bhutan
+qnfr1g,Usually ate fruit one or more times per day,Bhutan
+qnfr2g,Usually ate fruit two or more times per day,Bhutan
+qnfr3g,Usually ate fruit three or more times per day,Bhutan
+qnveglg,Usually ate vegetables less than one time per day,Bhutan
+qnveg1g,Usually ate vegetables one or more times per day,Bhutan
+qnveg2g,Usually ate vegetables two or more times per day,Bhutan
+qnveg3g,Usually ate vegetables three or more times per day,Bhutan
+qnsodalg,Usually drank carbonated soft drinks less than one time per day,Bhutan
+qnsoda1g,Usually drank carbonated soft drinks one or more times per day,Bhutan
+qnsoda2g,Usually drank carbonated soft drinks two or more times per day,Bhutan
+qnsoda3g,Usually drank carbonated soft drinks three or more times per day,Bhutan
+qnff1g,Ate food from a fast food restaurant one or more days,Bhutan
+qnff2g,Ate food from a fast food restaurant two or more days,Bhutan
+qnff3g,Ate food from a fast food restaurant three or more days,Bhutan
+qnc2g,Were bullied and could not sleep at night,Bhutan
+qntob2g,Currently used any tobacco product,Bhutan
+qnnotb2g,Did not currently use any tobacco products,Bhutan
+qnbcanyg,Used a method of birth control,Bhutan
+qnc1g,Ever had sexual intercourse among students who had drank so much alcohol that th,Bhutan
+qnpa5g,Were physically active at least 60 minutes per day on 5 or more days,Bhutan
+qnpa7g,Were physically active at least 60 minutes per day on all 7 days,Bhutan
+qnpe3g,Attended physical education classes on three or more days,Bhutan
+qnpe5g,Attended physical education classes on five or more days,Bhutan
+weight,,Bhutan
+stratum,,Bhutan
+psu,,Bhutan
+Q1,Custom Age,Maldives
+Q2,Sex,Maldives
+Q3,In what grade are you,Maldives
+Q4,How tall are you,Maldives
+Q5,How much do you weigh,Maldives
+Q6,How often went hungry,Maldives
+Q7,No fruit eating,Maldives
+Q8,No vegetable eating,Maldives
+Q9,Soft drinks,Maldives
+Q10,Fast food eating,Maldives
+Q15,Physically attacked,Maldives
+Q16,Physical fighting,Maldives
+Q17,Seriously injured,Maldives
+Q18,Serious injury broken bone,Maldives
+Q19,Serious injury motor vehicle,Maldives
+Q20,Bullied,Maldives
+Q21,Bullied by hitting,Maldives
+Q22,Felt lonely,Maldives
+Q23,Could not sleep,Maldives
+Q24,Considered suicide,Maldives
+Q25,Made a suicide plan,Maldives
+Q26,Attempted suicide,Maldives
+Q27,Close friends,Maldives
+Q28,Initiation of cigarette use,Maldives
+Q29,Current cigarette use,Maldives
+Q30,Other tobacco use,Maldives
+Q31,Smoking cessation,Maldives
+Q32,Smoking in their presence,Maldives
+Q33,Parental tobacco use,Maldives
+Q34,Initiation of alcohol use,Maldives
+Q40,Initiation of drug use,Maldives
+Q41,Ever marijuana use,Maldives
+Q42,Current marijuana use,Maldives
+Q43,Amphethamine or methamphetamine use,Maldives
+Q53,Miss school no permission,Maldives
+Q54,Other students kind and helpful,Maldives
+Q55,Parents check homework,Maldives
+Q56,Parents understand problems,Maldives
+Q57,Parents know about free time,Maldives
+Q58,Parents go through their things,Maldives
+QN6,Most of the time or always went hungry,Maldives
+QN7,Did not eat fruit,Maldives
+QN8,Did not eat vegetables,Maldives
+QN9,Did not drink carbonated soft drinks,Maldives
+QN10,Did not eat food from a fast food restaurant,Maldives
+QN15,Were physically attacked,Maldives
+QN16,Were in a physical fight,Maldives
+QN17,Were seriously injured,Maldives
+QN18,Reported that their most serious injury was a broken bone or dislocated joint,Maldives
+QN19,Reported that their most serious injury was caused by a motor vehicle accident o,Maldives
+QN20,Were bullied,Maldives
+QN21,"Were bullied most often by being hit, kicked, pushed, shoved around, or locked i",Maldives
+QN22,Most of the time or always felt lonely,Maldives
+QN23,Most of the time or always were so worried about something that they could not s,Maldives
+QN24,Seriously considered attempting suicide,Maldives
+QN25,Made a plan about how they would attempt suicide,Maldives
+QN26,Attempted suicide,Maldives
+QN27,Did not have any close friends,Maldives
+QN28,Tried a cigarette before age 14 years,Maldives
+QN29,Currently smoked cigarettes,Maldives
+QN30,Currently used any tobacco products other than cigarettes,Maldives
+QN31,Tried to quit smoking cigarettes,Maldives
+QN32,Reported that people smoked in their presence,Maldives
+QN33,Had parents or guardians who used any form of tobacco,Maldives
+QN34,Drank alcohol before age 14 years,Maldives
+QN40,Used drugs before age 14 years,Maldives
+QN41,Ever used marijuana,Maldives
+QN42,Currently used marijuana,Maldives
+QN43,Ever used amphethamines or methamphetamines,Maldives
+QN53,Missed classes or school without permission,Maldives
+QN54,Reported that most of the students in their school were most of the time or alwa,Maldives
+QN55,Reported that their parents or guardians most of the time or always checked to s,Maldives
+QN56,Reported that their parents or guardians most of the time or always understood t,Maldives
+QN57,Reported that their parents or guardians most of the time or always really knew,Maldives
+QN58,Reported that their parents or guardians never or rarely went through their thin,Maldives
+qnunwtg,Were underweight,Maldives
+qnowtg,Were overweight,Maldives
+qnobeseg,Were obese,Maldives
+qnfrlg,Usually ate fruit less than one time per day,Maldives
+qnfr1g,Usually ate fruit one or more times per day,Maldives
+qnfr2g,Usually ate fruit two or more times per day,Maldives
+qnfr3g,Usually ate fruit three or more times per day,Maldives
+qnveglg,Usually ate vegetables less than one time per day,Maldives
+qnveg1g,Usually ate vegetables one or more times per day,Maldives
+qnveg2g,Usually ate vegetables two or more times per day,Maldives
+qnveg3g,Usually ate vegetables three or more times per day,Maldives
+qnsodalg,Usually drank carbonated soft drinks less than one time per day,Maldives
+qnsoda1g,Usually drank carbonated soft drinks one or more times per day,Maldives
+qnsoda2g,Usually drank carbonated soft drinks two or more times per day,Maldives
+qnsoda3g,Usually drank carbonated soft drinks three or more times per day,Maldives
+qnff1g,Ate food from a fast food restaurant one or more days,Maldives
+qnff2g,Ate food from a fast food restaurant two or more days,Maldives
+qnff3g,Ate food from a fast food restaurant three or more days,Maldives
+qnc2g,Were bullied and could not sleep at night,Maldives
+qntob2g,Currently used any tobacco product,Maldives
+qnnotb2g,Did not currently use any tobacco products,Maldives
+weight,,Maldives
+stratum,,Maldives
+psu,,Maldives
+q1,Custom Age,Nepal
+q2,Sex,Nepal
+q3,In what grade are you,Nepal
+q4,How tall are you,Nepal
+q5,How much do you weigh,Nepal
+q6,How often went hungry,Nepal
+q7,No fruit eating,Nepal
+q8,No vegetable eating,Nepal
+q9,Soft drinks,Nepal
+q10,Fast food eating,Nepal
+q11,Tooth brushing,Nepal
+q12,Hand washing before eating,Nepal
+q13,Hand washing after toilet,Nepal
+q14,Hand washing with soap,Nepal
+q15,Physically attacked,Nepal
+q16,Physical fighting,Nepal
+q17,Seriously injured,Nepal
+q18,Serious injury type,Nepal
+q19,Serious injury cause,Nepal
+q20,Bullied,Nepal
+q21,Bullied how,Nepal
+q22,Felt lonely,Nepal
+q23,Could not sleep,Nepal
+q24,Considered suicide,Nepal
+q25,Made a suicide plan,Nepal
+q26,Attempted suicide,Nepal
+q27,Close friends,Nepal
+q28,Initiation of cigarette use,Nepal
+q29,Current cigarette use,Nepal
+q30,Other tobacco use,Nepal
+q31,Smoking cessation,Nepal
+q32,Smoking in their presence,Nepal
+q33,Parental tobacco use,Nepal
+q34,Initiation of alcohol use,Nepal
+q35,Current alcohol use,Nepal
+q36,Drank 2+ drinks,Nepal
+q37,Source of alchohol,Nepal
+q38,Really drunk,Nepal
+q39,Trouble from drinking,Nepal
+q40,Initiation of drug use,Nepal
+q41,Ever marijuana use,Nepal
+q42,Current marijuana use,Nepal
+q43,Amphethamine or methamphetamine use,Nepal
+q44,Ever sexual intercourse,Nepal
+q45,Age first had sex,Nepal
+q46,Number of sex partners,Nepal
+q47,Condom use,Nepal
+q48,Birth control used,Nepal
+q49,Physical activity past 7 days,Nepal
+q50,Walk or bike to school,Nepal
+q51,PE attendance,Nepal
+q52,Sitting activities,Nepal
+q53,Miss school no permission,Nepal
+q54,Other students kind and helpful,Nepal
+q55,Parents check homework,Nepal
+q56,Parents understand problems,Nepal
+q57,Parents know about free time,Nepal
+q58,Parents go through their things,Nepal
+qn6,Most of the time or always went hungry,Nepal
+qn7,Did not eat fruit,Nepal
+qn8,Did not eat vegetables,Nepal
+qn9,Did not drink carbonated soft drinks,Nepal
+qn10,Did not eat food from a fast food restaurant,Nepal
+qn11,Usually cleaned or brushed their teeth,Nepal
+qn12,Never or rarely washed their hands before eating,Nepal
+qn13,Never or rarely washed their hands after using the toilet or latrine,Nepal
+qn14,Never or rarely used soap when washing their hands,Nepal
+qn15,Were physically attacked,Nepal
+qn16,Were in a physical fight,Nepal
+qn17,Were seriously injured,Nepal
+qn18,Reported that their most serious injury was a broken bone or dislocated joint,Nepal
+qn19,Reported that their most serious injury was caused by a motor vehicle accident o,Nepal
+qn20,Were bullied,Nepal
+qn21,"Were bullied most often by being hit, kicked, pushed, shoved around, or locked i",Nepal
+qn22,Most of the time or always felt lonely,Nepal
+qn23,Most of the time or always were so worried about something that they could not s,Nepal
+qn24,Seriously considered attempting suicide,Nepal
+qn25,Made a plan about how they would attempt suicide,Nepal
+qn26,Attempted suicide,Nepal
+qn27,Did not have any close friends,Nepal
+qn28,Tried a cigarette before age 14 years,Nepal
+qn29,Currently smoked cigarettes,Nepal
+qn30,Currently used any tobacco products other than cigarettes,Nepal
+qn31,Tried to quit smoking cigarettes,Nepal
+qn32,Reported that people smoked in their presence,Nepal
+qn33,Had parents or guardians who used any form of tobacco,Nepal
+qn34,Drank alcohol before age 14 years,Nepal
+qn35,Currently drank alcohol,Nepal
+qn36,Usually drank two or more drinks per day,Nepal
+qn37,Usually obtained the alcohol they drank from friends,Nepal
+qn38,Ever drank so much alcohol that they were really drunk,Nepal
+qn39,"Ever got into trouble with their family or friends, missed school, or got into f",Nepal
+qn40,Used drugs before age 14 years,Nepal
+qn41,Ever used marijuana,Nepal
+qn42,Currently used marijuana,Nepal
+qn43,Ever used amphethamines or methamphetamines,Nepal
+qn44,Ever had sexual intercourse,Nepal
+qn45,Had sexual intercourse before age 14 years,Nepal
+qn46,Had sexual intercourse with two or more persons,Nepal
+qn47,Used a condom,Nepal
+qn48,Used a method of birth control other than condoms,Nepal
+qn49,Were not physically active,Nepal
+qn50,Did not walk or ride a bicycle to or from school,Nepal
+qn51,Did not attend physical education classes,Nepal
+qn52,Spent three or more hours per day doing sitting activities,Nepal
+qn53,Missed classes or school without permission,Nepal
+qn54,Reported that most of the students in their school were most of the time or alwa,Nepal
+qn55,Reported that their parents or guardians most of the time or always checked to s,Nepal
+qn56,Reported that their parents or guardians most of the time or always understood t,Nepal
+qn57,Reported that their parents or guardians most of the time or always really knew,Nepal
+qn58,Reported that their parents or guardians never or rarely went through their thin,Nepal
+qnunwtg,Were underweight,Nepal
+qnowtg,Were overweight,Nepal
+qnobeseg,Were obese,Nepal
+qnfrlg,Usually ate fruit less than one time per day,Nepal
+qnfr1g,Usually ate fruit one or more times per day,Nepal
+qnfr2g,Usually ate fruit two or more times per day,Nepal
+qnfr3g,Usually ate fruit three or more times per day,Nepal
+qnveglg,Usually ate vegetables less than one time per day,Nepal
+qnveg1g,Usually ate vegetables one or more times per day,Nepal
+qnveg2g,Usually ate vegetables two or more times per day,Nepal
+qnveg3g,Usually ate vegetables three or more times per day,Nepal
+qnsodalg,Usually drank carbonated soft drinks less than one time per day,Nepal
+qnsoda1g,Usually drank carbonated soft drinks one or more times per day,Nepal
+qnsoda2g,Usually drank carbonated soft drinks two or more times per day,Nepal
+qnsoda3g,Usually drank carbonated soft drinks three or more times per day,Nepal
+qnff1g,Ate food from a fast food restaurant one or more days,Nepal
+qnff2g,Ate food from a fast food restaurant two or more days,Nepal
+qnff3g,Ate food from a fast food restaurant three or more days,Nepal
+qnc2g,Were bullied and could not sleep at night,Nepal
+qntob2g,Currently used any tobacco product,Nepal
+qnnotb2g,Did not currently use any tobacco products,Nepal
+qnbcanyg,Used a method of birth control,Nepal
+qnc1g,Ever had sexual intercourse among students who had drank so much alcohol that th,Nepal
+qnpa5g,Were physically active at least 60 minutes per day on 5 or more days,Nepal
+qnpa7g,Were physically active at least 60 minutes per day on all 7 days,Nepal
+qnpe3g,Attended physical education classes on three or more days,Nepal
+qnpe5g,Attended physical education classes on five or more days,Nepal
+weight,,Nepal
+stratum,,Nepal
+psu,,Nepal
+Q1,Custom Age,Srilanka
+Q2,Sex,Srilanka
+Q3,In what grade are you,Srilanka
+Q4,How tall are you,Srilanka
+Q5,How much do you weigh,Srilanka
+Q6,How often went hungry,Srilanka
+Q7,No fruit eating,Srilanka
+Q8,No vegetable eating,Srilanka
+Q9,Soft drinks,Srilanka
+Q10,Fast food eating,Srilanka
+Q11,Tooth brushing,Srilanka
+Q12,Hand washing before eating,Srilanka
+Q13,Hand washing after toilet,Srilanka
+Q14,Hand washing with soap,Srilanka
+Q15,Physically attacked,Srilanka
+Q16,Physical fighting,Srilanka
+Q17,Seriously injured,Srilanka
+Q18,Serious injury type,Srilanka
+Q19,Serious injury cause,Srilanka
+Q20,Bullied,Srilanka
+Q21,Bullied how,Srilanka
+Q22,Felt lonely,Srilanka
+Q23,Could not sleep,Srilanka
+Q24,Considered suicide,Srilanka
+Q25,Made a suicide plan,Srilanka
+Q26,Attempted suicide,Srilanka
+Q27,Close friends,Srilanka
+Q28,Initiation of cigarette use,Srilanka
+Q29,Current cigarette use,Srilanka
+Q30,Other tobacco use,Srilanka
+Q31,Smoking cessation,Srilanka
+Q32,Smoking in their presence,Srilanka
+Q33,Parental tobacco use,Srilanka
+Q34,Initiation of alcohol use,Srilanka
+Q35,Current alcohol use,Srilanka
+Q36,Drank 2+ drinks,Srilanka
+Q37,Source of alchohol,Srilanka
+Q38,Really drunk,Srilanka
+Q39,Trouble from drinking,Srilanka
+Q40,Initiation of drug use,Srilanka
+Q41,Ever marijuana use,Srilanka
+Q42,Current marijuana use,Srilanka
+Q43,Amphethamine or methamphetamine use,Srilanka
+Q44,Ever sexual intercourse,Srilanka
+Q45,Age first had sex,Srilanka
+Q46,Number of sex partners,Srilanka
+Q47,Condom use,Srilanka
+Q48,Birth control used,Srilanka
+Q49,Physical activity past 7 days,Srilanka
+Q50,Walk or bike to school,Srilanka
+Q51,PE attendance,Srilanka
+Q52,Sitting activities,Srilanka
+Q53,Miss school no permission,Srilanka
+Q54,Other students kind and helpful,Srilanka
+Q55,Parents check homework,Srilanka
+Q56,Parents understand problems,Srilanka
+Q57,Parents know about free time,Srilanka
+Q58,Parents go through their things,Srilanka
+QN6,Most of the time or always went hungry,Srilanka
+QN7,Did not eat fruit,Srilanka
+QN8,Did not eat vegetables,Srilanka
+QN9,Did not drink carbonated soft drinks,Srilanka
+QN10,Did not eat food from a fast food restaurant,Srilanka
+QN11,Usually cleaned or brushed their teeth,Srilanka
+QN12,Never or rarely washed their hands before eating,Srilanka
+QN13,Never or rarely washed their hands after using the toilet or latrine,Srilanka
+QN14,Never or rarely used soap when washing their hands,Srilanka
+QN15,Were physically attacked,Srilanka
+QN16,Were in a physical fight,Srilanka
+QN17,Were seriously injured,Srilanka
+QN18,Reported that their most serious injury was a broken bone or dislocated joint,Srilanka
+QN19,Reported that their most serious injury was caused by a motor vehicle accident o,Srilanka
+QN20,Were bullied,Srilanka
+QN21,"Were bullied most often by being hit, kicked, pushed, shoved around, or locked i",Srilanka
+QN22,Most of the time or always felt lonely,Srilanka
+QN23,Most of the time or always were so worried about something that they could not s,Srilanka
+QN24,Seriously considered attempting suicide,Srilanka
+QN25,Made a plan about how they would attempt suicide,Srilanka
+QN26,Attempted suicide,Srilanka
+QN27,Did not have any close friends,Srilanka
+QN28,Tried a cigarette before age 14 years,Srilanka
+QN29,Currently smoked cigarettes,Srilanka
+QN30,Currently used any tobacco products other than cigarettes,Srilanka
+QN31,Tried to quit smoking cigarettes,Srilanka
+QN32,Reported that people smoked in their presence,Srilanka
+QN33,Had parents or guardians who used any form of tobacco,Srilanka
+QN34,Drank alcohol before age 14 years,Srilanka
+QN35,Currently drank alcohol,Srilanka
+QN36,Usually drank two or more drinks per day,Srilanka
+QN37,Usually obtained the alcohol they drank from friends,Srilanka
+QN38,Ever drank so much alcohol that they were really drunk,Srilanka
+QN39,"Ever got into trouble with their family or friends, missed school, or got into f",Srilanka
+QN40,Used drugs before age 14 years,Srilanka
+QN41,Ever used marijuana,Srilanka
+QN42,Currently used marijuana,Srilanka
+QN43,Ever used amphethamines or methamphetamines,Srilanka
+QN44,Ever had sexual intercourse,Srilanka
+QN45,Had sexual intercourse before age 14 years,Srilanka
+QN46,Had sexual intercourse with two or more persons,Srilanka
+QN47,Used a condom,Srilanka
+QN48,Used a method of birth control other than condoms,Srilanka
+QN49,Were not physically active,Srilanka
+QN50,Did not walk or ride a bicycle to or from school,Srilanka
+QN51,Did not attend physical education classes,Srilanka
+QN52,Spent three or more hours per day doing sitting activities,Srilanka
+QN53,Missed classes or school without permission,Srilanka
+QN54,Reported that most of the students in their school were most of the time or alwa,Srilanka
+QN55,Reported that their parents or guardians most of the time or always checked to s,Srilanka
+QN56,Reported that their parents or guardians most of the time or always understood t,Srilanka
+QN57,Reported that their parents or guardians most of the time or always really knew,Srilanka
+QN58,Reported that their parents or guardians never or rarely went through their thin,Srilanka
+qnunwtg,Were underweight,Srilanka
+qnowtg,Were overweight,Srilanka
+qnobeseg,Were obese,Srilanka
+qnfrlg,Usually ate fruit less than one time per day,Srilanka
+qnfr1g,Usually ate fruit one or more times per day,Srilanka
+qnfr2g,Usually ate fruit two or more times per day,Srilanka
+qnfr3g,Usually ate fruit three or more times per day,Srilanka
+qnveglg,Usually ate vegetables less than one time per day,Srilanka
+qnveg1g,Usually ate vegetables one or more times per day,Srilanka
+qnveg2g,Usually ate vegetables two or more times per day,Srilanka
+qnveg3g,Usually ate vegetables three or more times per day,Srilanka
+qnsodalg,Usually drank carbonated soft drinks less than one time per day,Srilanka
+qnsoda1g,Usually drank carbonated soft drinks one or more times per day,Srilanka
+qnsoda2g,Usually drank carbonated soft drinks two or more times per day,Srilanka
+qnsoda3g,Usually drank carbonated soft drinks three or more times per day,Srilanka
+qnff1g,Ate food from a fast food restaurant one or more days,Srilanka
+qnff2g,Ate food from a fast food restaurant two or more days,Srilanka
+qnff3g,Ate food from a fast food restaurant three or more days,Srilanka
+qnc2g,Were bullied and could not sleep at night,Srilanka
+qntob2g,Currently used any tobacco product,Srilanka
+qnnotb2g,Did not currently use any tobacco products,Srilanka
+qnbcanyg,Used a method of birth control,Srilanka
+qnc1g,Ever had sexual intercourse among students who had drank so much alcohol that th,Srilanka
+qnpa5g,Were physically active at least 60 minutes per day on 5 or more days,Srilanka
+qnpa7g,Were physically active at least 60 minutes per day on all 7 days,Srilanka
+qnpe3g,Attended physical education classes on three or more days,Srilanka
+qnpe5g,Attended physical education classes on five or more days,Srilanka
+weight,,Srilanka
+stratum,,Srilanka
+psu,,Srilanka
