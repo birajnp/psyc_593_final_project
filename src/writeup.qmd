@@ -4,14 +4,14 @@ subtitle: "writeup - PSYC593"
 csl: apa.csl
 format:
   pdf: 
-    latex-output-dir: "../../documents/"
+    latex-output-dir: "../documents"
   html:
     embed-resources: true
     self_contained: true 
-    output_dir: "../../documents/"
+    output_dir: "../documents"
 knitr: 
   opts_chunk:
-      fig.path: "../../results/"
+      fig.path: "../results"
 editor: source
 markdown: 
     wrap: 72
@@ -71,3 +71,4 @@ The raw datasets of each country identified above were retrieved the GSHS from t
 The main analysis for this research will be conducted using a combination of Pearson’s correlation, multiple regression, and logistic regression to explore the associations between mental, social, and lifestyle behaviors with physical outbursts in adolescence. First, Pearson's correlation will assess the strength and direction of the linear relationships between variables such as psychological distress, bullying, and substance use with physical outbursts. Scatterplots with lines of best fit will visualize these relationships, accompanied by r values to quantify the degree of correlation. This will provide a preliminary understanding of how each behavior is associated with physical outbursts.
 
 multiple linear regression will be employed to examine the independent effect of each behavior on physical outbursts while controlling for covariates such as age, gender, and parental monitoring. This will help determine which factors have a significant impact on physical outbursts when other variables are considered. Additionally, logistic regression will be used for binary outcomes, such as whether or not a physical outburst occurred, to calculate odds ratios and identify which behaviors increase the likelihood of these events. Visualizations, including scatterplots and regression output tables, will support the interpretation of results, highlighting key predictors of physical outbursts.
+
