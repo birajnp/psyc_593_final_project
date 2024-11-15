@@ -24,26 +24,24 @@ You can add options to executable code like this
 2 * 2
 ```
 
-##Loading required packages for the study
+# #Loading required packages for the study
 
 ```{r}
-rm(list=ls())
-
 # Project : Do Adolescents Emotions Turn into Physical Outbursts?
 # load packages
 
-Packages <- c("gtsummary","foreign","survey",'labelled',"readxl", "tidyverse",
+packages <- c("gtsummary","foreign","survey",'labelled',"readxl", "tidyverse",
               "haven","rockchalk", "forcats", "data.table", "Hmisc", "srvyr", "here")
 
-new_packages <- Packages[!(Packages %in% installed.packages()[,"Package"])]
+new_packages <- packages[!(packages %in% installed.packages()[,"Package"])]
 if(length(new_packages)) install.packages(new_packages, dependencies = T)
 
 #load libraries
-invisible(lapply(Packages, require, character.only=T))
+invisible(lapply(packages, require, character.only=T))
 
 ```
 
-##Loading data for every countries
+# #Loading data for every countries
 
 ```{r}
 # read data set
@@ -143,46 +141,54 @@ table(data_afghanisthan$Q16)
 
 ```
 
-##Extracting variable names and their associated labels to understand the data-set
+# #Extracting variable names and their associated labels to understand the data-set
 
 ```{r}
 
 # function to get variable labels (if present) or just names
-get_var_label <- function(data, dataset_name) {
-  data.frame(
-    Column_Name = colnames(data),
-    Label = sapply(var_label(data), 
-                   function(x) ifelse(is.null(x), "", x)),
-    Dataset = dataset_name
-  )
-}
+get_var_label <- function (data, dataset_name) {
+                  data.frame (
+                    Column_Name = colnames(data),
+                    Label = sapply(var_label (data), 
+                     function(x) ifelse(is.null(x), "", x)),
+                    Dataset = dataset_name )}
 
 # Get variable labels from each dataset
-afghanisthan_labels <- get_var_label(data_afghanisthan, "Afghanisthan")
-bangladesh_labels <- get_var_label(data_bangladesh, "Bangladesh")
-bhutan_labels <- get_var_label(data_bhutan, "Bhutan")
-maldives_labels <- get_var_label(data_maldives, "Maldives")
-nepal_labels <- get_var_label(data_nepal, "Nepal")
-srilanka_labels <- get_var_label(data_srilanka, "Srilanka")
+afghanisthan_labels <- get_var_label (data_afghanisthan, "Afghanisthan")
+
+bangladesh_labels <- get_var_label (data_bangladesh, "Bangladesh")
+
+bhutan_labels <- get_var_label (data_bhutan, "Bhutan")
+
+maldives_labels <- get_var_label (data_maldives, "Maldives")
+
+nepal_labels <- get_var_label (data_nepal, "Nepal")
+
+srilanka_labels <- get_var_label (data_srilanka, "Srilanka")
 
 # Combine all labels into one data frame
-combined_label <- bind_rows(afghanisthan_labels, bangladesh_labels, bhutan_labels, maldives_labels, nepal_labels, srilanka_labels )
+combined_label <- bind_rows(afghanisthan_labels, bangladesh_labels, bhutan_labels,                   maldives_labels, nepal_labels, srilanka_labels )
 
 # Write the combined labels to a CSV file for comparison
 #write_csv(combined_label, 'combined_data_labels_raw.csv')
 
 ```
 
-##Procedure to combine data set, from our analysis we saw that the data file doesn't have consistent name so we need to lowercase the variable name across all data set.
+# #Procedure to combine data set, from our analysis we saw that the data file doesn't have consistent name so we need to lowercase the variable name across all data set.
 
 ```{r}
 # lower casing the variables name
 
 names(data_afghanisthan) <- tolower(names(data_afghanisthan))
+
 names(data_bangladesh) <- tolower(names(data_bangladesh))
+
 names(data_bhutan) <- tolower(names(data_bhutan))
+
 names(data_maldives) <- tolower(names(data_maldives))
+
 names(data_nepal) <- tolower(names(data_nepal))
+
 names(data_srilanka) <- tolower(names(data_srilanka))
 ```
 
@@ -216,18 +222,28 @@ core_vars <- c(
 
 # Subset the data sets to include only the selected variables
 af_selected <- data_afghanisthan %>% select(all_of(core_vars))
+
 bd_selected <- data_bangladesh %>% select(all_of(core_vars))
+
 bt_selected <- data_bhutan %>% select(all_of(core_vars))
+
 md_selected <- data_maldives %>% select(all_of(core_vars))
+
 np_selected <- data_nepal %>% select(all_of(core_vars))
+
 sl_selected <- data_srilanka %>% select(all_of(core_vars))
 
 # extracting column name for each dataset
 af_cols <- names(af_selected) #Afghanisthan
+
 bd_cols <- names(bd_selected) #Bangladesh
+
 bt_cols <- names(bt_selected) #Bhutan
+
 md_cols <- names(md_selected) #Maldives
+
 np_cols <- names(np_selected) #Nepal
+
 sl_cols <- names(sl_selected) #Srilanka
 
 # Checking if column names match across all datasets
@@ -238,8 +254,6 @@ cols_match <- cols_match <- all(
     md_cols == af_cols & 
     af_cols == sl_cols
 )
-
-
 
 cols_match
 
@@ -294,22 +308,19 @@ df <- labelled::copy_labels(np_selected, df)
 saveRDS(df, here('data', 'clean_dataset', 'clean_dataset_for_analysis.rds'))
 ```
 
-##clearing the previous environment and loading packages
+# #clearing the previous environment and loading packages
 
 ```{r}
 rm(list=ls())
 
-# Project : Do Adolescents Emotions Turn into Physical Outbursts?
-# load packages
-
-Packages <- c("gtsummary","foreign","survey",'labelled',"readxl", "tidyverse",
+packages <- c("gtsummary","foreign","survey",'labelled',"readxl", "tidyverse",
               "haven","rockchalk", "forcats", "data.table", "Hmisc", "srvyr", "here")
 
-new_packages <- Packages[!(Packages %in% installed.packages()[,"Package"])]
+new_packages <- packages[!(packages %in% installed.packages()[,"Package"])]
 if(length(new_packages)) install.packages(new_packages, dependencies = T)
 
 #load libraries
-invisible(lapply(Packages, require, character.only=T))
+invisible(lapply(packages, require, character.only=T))
 ```
 
 ```{r}
@@ -319,49 +330,59 @@ df <- readRDS(here('data', 'clean_dataset', 'clean_dataset_for_analysis.rds'))
 
 ```
 
-## Cleaning Variables for Analysis
+## #Cleaning Variables for Analysis
 
 ```{r}
 #lowercasing all the row names in df
 names(df) <- tolower(names(df))
 
 #categorization of age in new variable age_category
-
 df <- mutate(df,
-             age_category = case_when(
-                  q1 == '11 years old or younger' ~ '11 years old or younger',
-                  q1 %in% c("12 years old", "13 years old", "14 years old") ~ "12 to 14 years",
-                  q1 %in% c("15 years old", "16 years old", '17 years old') ~ "15 to 17 years",
-                  q1 == '18 years old or older' ~ '18 years old or older',
-                    TRUE ~ NA_character_))
+        age_category = case_when(
+          q1 == '11 years old or younger' ~ '11 years old or younger',
+          q1 %in% c("12 years old", "13 years old", "14 years old") ~ "12 to 14 years",
+          q1 %in% c("15 years old", "16 years old", '17 years old') ~ "15 to 17 years",
+          q1 == '18 years old or older' ~ '18 years old or older',
+          TRUE ~ NA_character_
+        ))
 
 #' categorization of data female 0 and Male 1 in sex_category variable
 
-df <- mutate(df,
-             sex_category = ifelse(q2 == "Male", '1',
-                                   ifelse(q2 == "Female",'0', q2)))
+# df <- mutate(df,
+#              sex_category = ifelse(q2 == "Male", '1',
+#                                    ifelse(q2 == "Female",'0', q2)))
 
-# felt lonely q22 bianary
 
+# Felt lonely binary
 df <- mutate(df,
-             felt_lonely = ifelse(q22 == "Never" , "0",
-                            ifelse(q22 == "Rarely", "0",
-                              ifelse(q22 == "Sometimes", "1",
-                                ifelse(q22 == "Most of the time", "1",
-                                  ifelse(q22 == "Always", "1", q22))))))
+  felt_lonely = case_when(
+    q22 %in% c("Never", "Rarely") ~ "0",
+    q22 %in% c("Sometimes", "Most of the time", "Always") ~ "1",
+    TRUE ~ q22
+  ))
+
+
+
+
+
 # couldn't sleep q23 bianary
+
 df <- mutate(df,
-             couldnot_sleep = ifelse(q23 == "Never" , "0",
-                                  ifelse(q23 == "Rarely", "0",
-                                         ifelse(q23 == "Sometimes", "1",
-                                                ifelse(q23 == "Most of the time", "1",
-                                                       ifelse(q23 == "Always", "1", q23))))))
+            couldnot_sleep = case_when(
+              q23 %in% c("Never", "Rarely") ~ "0",
+              q23 %in% c("Sometimes", "Most of the time", "Always") ~ "1",
+              TRUE ~ q23))
+
+
+
 # q24 considered suicide
-
 df <- mutate(df,
-             considered_suicide = ifelse(q24 == "N0" , "0",
-                                  ifelse(q24 == "Yes", "0", q24)))
-
+              considered_suicide = case_when(
+                    q24 == "No" ~ "0",
+                    q24 == "Yes" ~ "1",
+                    TRUE ~ q24))
+             
+             
 # q25 made suicide plan
 
 df <- mutate(df,
@@ -393,15 +414,15 @@ df <- mutate(df,
 
 # smoking frequency o = Never, 1-9 days = sometimes, 
  
+# Smoking frequency
 df <- mutate(df,
-  smoking_frequency = ifelse(q29 == "0 days" , "Never",
-                      ifelse(q29 == "1 or 2 days", 'Sometimes',
-                      ifelse(q29 == "3 to 5 days", 'Sometimes',
-                      ifelse(q29 == "6 to 9 days", 'Sometimes',
-                      ifelse(q29 == "10 to 19 days", 'Most of the times',
-                      ifelse(q29 == "20 to 29 days", 'Everyday',
-                      ifelse(q29 == "All 30 days", 'Everyday', q29)))))))) 
-
+      smoking_frequency = case_when(
+        q29 == "0 days" ~ "Never",
+        q29 %in% c("1 or 2 days", "3 to 5 days", "6 to 9 days") ~ "Sometimes",
+        q29 == "10 to 19 days" ~ "Most of the times",
+        q29 %in% c("20 to 29 days", "All 30 days") ~ "Everyday",
+        TRUE ~ q29
+      ))
 
 
 # question other tobacco use in last 30 days
@@ -532,6 +553,8 @@ df <- df %>%
 
 ```
 
+Check the function case_when for recoding multiple categories
+
 ```{r}
 # converting the data type as numberic
 
@@ -550,4 +573,8 @@ svy_dataset <- svydesign(
   weights = ~ weight, nest = TRUE                # Weights variable
 )
 
+```
+
+```{r}
+table()
 ```
