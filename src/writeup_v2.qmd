@@ -63,6 +63,11 @@ The table below describes each variable, the question asked, and how the questio
 <!-- In the table below, it would be useful to also indicate whether the variable belongs to one of your -->
 <!-- analysis categories (mental, social, or lifestyle behaviors, or physical outbursts. -->
 <!-- Also, if there are other variables. What role will they play in answering your question? -->
+Demographic variables for age are categorized into four groups "11 years old or younger," "12 to 14 years," "15 to 17 years," and "18 years old or older." This categorization ensures consistency in analysis, as the original data set presents age both categorically for those 11 years or younger, 18 years and older, and continuously for ages 12 to 17. Mental health indicators are coded as a binary code of 0 for responses of "never" or "rarely," and 1 for responses indicating "sometimes," "most of the time," or "always." Sleep issues are similarly coded, with 0 representing "never/rarely" and 1 for "sometimes/most of the time/always." For suicide-related variables, the coding "considered suicide variable " is coded as 0 for "no" and 1 for "yes"; "made suicide plan variables" is coded as 0 for "no" and 1 for "yes"; and "attempted suicide" is coded as 0 for "0 times" and 1 for "1 or more times." 
+
+Substance use-related variables i.e current smoking status, coded as 0 for "no smoking" and 1 for "any smoking in the past 30 days." Other tobacco use follows similar coding as smoking status. Frequency categories for use of substance are coded as "never" (0 days), "sometimes" (1 to 9 days), "most of the time" (10 to 19 days), and "every day" (20 or more days). For marijuana use, it is a binary indicator coded as 0 for "never" and 1 for "any use," with frequency categories as follows: "never," "sometimes" (1 to 9 times), "most of the time" (10 to 19 times), and "every day" (20 or more times). 
+
+Social support indicators include parent understanding, coded as 0 for "never/rarely/sometimes" and 1 for "most of the time/always." Parental awareness of activities is coded as 0 for "never/rarely/sometimes" and 1 for "most of the time/always." Peer support scores are binary coded as 0 for "never/rarely/sometimes" and 1 for "most of the time/always." Bullying experiences are recorded into two categories: "0 days" and "1 or more times."
 
 
 
