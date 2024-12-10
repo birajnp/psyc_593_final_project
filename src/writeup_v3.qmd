@@ -1,0 +1,320 @@
+---
+title: 'The Adolescent Emotional Brain and Physical Outbursts'
+subtitle: "writeup - PSYC593"
+csl: apa.csl
+format:
+  html:
+    embed-resources: true
+    self_contained: true 
+    output_dir: "../documents"
+  pdf: 
+    latex-output-dir: "../documents"  
+knitr: 
+  opts_chunk:
+      fig.path: "../results"
+editor: source
+markdown: 
+    wrap: 72
+author: Maddy and Biraj
+date: today
+---
+
+# Background
+
+According to the World Health Organization (WHO), adolescence is defined as a phase of human life between childhood and adulthood ranging in age from 10-19 years. This age of adolescence is an important time for laying a foundation for the good health of youth (Adolescent Health, n.d.). Other sources state that adolescence begins at puberty and ends when individuals assume mature social roles, like employment and parenting. In many developed countries, this transition occurs later, suggesting a longer duration of the adolescent period may be more fitting. However, the start and end points can vary widely across cultures and individuals.It is agreed upon that adolescence is a developmental stage of human life characterized by increased autonomy, the formation of identity, the establishment of social circles, and risk-taking behaviors among individuals. 
+
+Research indicates that adolescent violence is a significant global public health issue. During this period, emotions often take precedence over rational decision-making, leading adolescents to make choices that can profoundly affect their biopsychosocial well-being and shape their perceptions of reality. Those who engage in physical fighting are at an elevated risk for both physical and emotional health problems. Participation in fighting or physical outbursts can be viewed as part of a broader pattern of risky behaviors, which carry serious health implications (Jaworska & MacQueen, 2015; Pringle et al., 2016; Shaikh et al., 2019; Walsh et al., 2013).
+
+During this period, adolescents undergo a developmental transition to adulthood that involves rapid changes in both the brain and body, often occurring at different rates. This time is crucial for a healthy exploration of identity and learning independence. However, it can also be stressful and challenging due to these swift changes. Adolescents develop a stronger sense of right and wrong, along with an understanding of consequences and legal implications. This heightened awareness can lead to risk-taking behaviors, such as underage drinking or drug use, physical fighting, for exampple (Adolescent Development | Youth.Gov, n.d.). A study conducted by UNICEF suggests that globally, at least one in three adolescents had been in a physical fight in the past 12 months (Sitecontrol, 2014). Research shows that adolescents are significantly influenced by the immediate consequences of their decisions. They frequently engage in risky behaviors, even when they are aware of the potential dangers. A study conducted in Chile found that approximately 13.08% of surveyed students reported being involved in two or more physical fights within the past twelve months (Abio et al., 2020; Balocchini et al., 2013).
+
+Adolescents also experience ongoing emotional states, like anxiety, characterized by fear or stress, while their self-concept and self-esteem are influenced by themselves and their peers. Ultimately, the individual tends to fall into a state of greater vulnerability which becomes more opportune for themselves or others to attack the inner self of their emerging identity. Intervening to support positive health choices during adolescence has the potential to lessen the likelihood of developing a health condition in later life, with possible positive implications for future health service provision and resources (Balocchini et al., 2013).
+
+
+# Statement of Problem
+
+Adolescent years are stigmatized as years of bullying (e.g., physical, social, video, emotional), greater risk-taking behavior, evolving mental health disorders (e.g., Major Depressive Disorder), peer pressure, and decreased physical health maintenance (e.g., sleep, diet, exercise, mindfulness). These more negative concepts of adolescence are paired with a greater sense of autonomy, responsibility, and freedoms within this age group. Adolescence may receive a drivers permit and driver’s license, get their first job and earn an income, lead clubs or organizations within school or community systems, volunteer, socialize more frequently with friends, have a romantic relationship, and spend less time in the home. 
+
+It is during these years of riding an emotional roller-coaster of highs and lows, complimented by their environment (e.g., home, school, religious setting) and genetic make up (e.g., family history of mental illness) where negative and abnormal patterns of behavior may take root in the adolescent’s daily life at an exacerbated rate. 
+
+The mental, social, and lifestyle behaviors of adolescents have the potential to negatively or positively impact outward responses to negative stressors in their life. Acting on these negative stressors via physical outbursts can lead to school repercussions (e.g., suspensions, expulsion) or legal difficulties (e.g., being arrested as a minor, possession of illicit substances, disorderly conduct) that can have a lasting effect on the minor's future vocational or educational prospects following adolescent years. Hence, it is critical to investigate what underlying mental, social, and lifestyle behaviors may be associated with physical outbursts, in an effort to mitigate hurdles to educational success and legal troubles. 
+
+
+# Research Question
+
+Therefore, our research question seeks to understand if reported mental (e.g., suicidal ideation, loneliness), social (e.g., bullying) and lifestyle behaviors (e.g., drug and alcohol use) are associated with physical outbursts. Physical outbursts are at the crux of high emotionality and adolescence is the period in human development where it becomes the melting pot of many environmental challenges while individual behaviors are put to the test. The specific research question, is: **Are mental, social, and lifestyle behaviors associated with physical outbursts in adolescence?**
+
+
+
+# Data
+
+The sample dataset in which this research question will be asked is with from the Global School-Based Student Health Survey (GSHS) from Afghanistan, Bangladesh, Bhutan, The Maldives, Nepal, and Sri Lanka. This was a collaborative surveillance project between the selected national governments and the World Health Organization (WHO) to help countries measure and assess the behavioral risk factors and protective factors in the adolescent population aged 13 to 17 years.
+
+# Variables Description
+The table below describes each variable, the question asked, and how the question was measured. All of the following questions were forced choice as a ‘yes’ or ‘no’ question or on a Likert scale. The following table outlines the variables that will be used in the analysis, the survey questions they correspond to, and the recoding method used:
+
+
+Demographic variables for age are categorized into four groups "11 years old or younger," "12 to 14 years," "15 to 17 years," and "18 years old or older." This categorization ensures consistency in analysis, as the original data set presents age both categorically for those 11 years or younger, 18 years and older, and continuously for ages 12 to 17. Mental health indicators are coded as a binary code of 0 for responses of "never" or "rarely," and 1 for responses indicating "sometimes," "most of the time," or "always." Sleep issues are similarly coded, with 0 representing "never/rarely" and 1 for "sometimes/most of the time/always." For suicide-related variables, the coding "considered suicide variable " is coded as 0 for "no" and 1 for "yes"; "made suicide plan variables" is coded as 0 for "no" and 1 for "yes"; and "attempted suicide" is coded as 0 for "0 times" and 1 for "1 or more times." 
+
+Substance use-related variables i.e current smoking status, coded as 0 for "no smoking" and 1 for "any smoking in the past 30 days." Other tobacco use follows similar coding as smoking status. Frequency categories for use of substance are coded as "never" (0 days), "sometimes" (1 to 9 days), "most of the time" (10 to 19 days), and "every day" (20 or more days). For marijuana use, it is a binary indicator coded as 0 for "never" and 1 for "any use," with frequency categories as follows: "never," "sometimes" (1 to 9 times), "most of the time" (10 to 19 times), and "every day" (20 or more times). 
+
+Social support indicators include parent understanding, coded as 0 for "never/rarely/sometimes" and 1 for "most of the time/always." Parental awareness of activities is coded as 0 for "never/rarely/sometimes" and 1 for "most of the time/always." Peer support scores are binary coded as 0 for "never/rarely/sometimes" and 1 for "most of the time/always." Bullying experiences are recorded into two categories: "0 days" and "1 or more times."
+
+
+
+| Variable                      | Survey Question                                                                                            | Recoding                                                |
+|----------------|-------------------------------|--------------------------|
+| **Parents understanding**     | "During the past 30 days, how often did your parents/guardians understand your problems and worries?"      | 1 = Most of the time/always, 0 = Never/rarely/sometimes |
+| **Parents monitoring**        | "During the past 30 days, how often did your parents/guardians know what you were doing with free time?"   | 1 = Most of the time/always, 0 = Never/rarely/sometimes |
+| **Parents check homework**    | "During the past 30 days, how often did your parents/guardians check if your homework was done?"           | 1 = Most of the time/always, 0 = Never/rarely/sometimes |
+| **Parents Control**           | "During the past 30 days, how often did your parents/guardians go through your things without permission?" | 1 = Most of the time/always, 0 = Never/rarely/sometimes |
+| **Gender**                    | "What is your sex?"                                                                                        | 1 = Male, 2 = Female                                    |
+| **Age**                       | "How old are you?"                                                                                         | 13-15 = 1, 16-17 = 2                                    |
+| **Current cigarette smoking** | "During the past 30 days, on how many days did you smoke cigarettes?"                                      | 0 = No, 1 or more = Yes                                 |
+| **Currently drank alcohol**   | "During the past 30 days, how many drinks did you usually drink per day?"                                  | 0 = No, 1 or more = Yes                                 |
+| **Currently used marijuana**  | "During the past 30 days, how many times have you used marijuana?"                                         | 0 = No, 1 or more = Yes                                 |
+| **Ever used amphetamines**    | "During your life, how many times have you used amphetamines or methamphetamines?"                         | 0 = No, 1 or more = Yes                                 |
+| **Physical Activity**         | "During the past 7 days, how many days were you physically active for at least 60 minutes?"                | 0 = No, 1 or more days = Yes                            |
+| **Sedentary behavior**        | "How much time do you spend watching TV, playing games, or talking with friends daily?"                    | Less than 1-2 hours = No, 3 or more hours = Yes         |
+| **Supportive friends**        | "During the past 30 days, how often were students kind and helpful?"                                       | 1 = Most of the time/always, 0 = Never/rarely/sometimes |
+| **Close friends**             | "How many close friends do you have?"                                                                      | 0 = None, 1 or more = Yes                               |
+| **Psychological distress**    | Defined as feeling lonely, being unable to sleep due to worry, or planning a suicide attempt.              | 0 = No, 1 = Yes                                         |
+
+# Plan of Analysis
+
+Our main dependent variable, physical outbursts, originally were reported on a Likert scale and stratified by the number of physical outbursts from 0, 1-2, 2-3, 4-5, 6-7, 8-9, 10-11, or 12+ times. To conduct our analysis, we will transfer this categorical variable into a binary variable describing no physical outbursts (0) versus any physical outbursts (1-12+). Following, this binary variable of physical outbursts will be correlated with social support, substance use, mental health, and physical activity variables. This data analysis will explain if any relationship exists between physical outbursts and the mental, social, and lifestyle bevaiors provided above. 
+
+Survey weights and stata will be added and designed as a survey analysis. 
+
+The raw datasets of each country identified above were retrieved the GSHS from the surveillance project with the WHO. The raw datasets were then imported into R version 4.4.1 for cleaning up. we used tidyverse packages to achieve this. Once the new cleaned up data was complete, a ‘clean_dataset’ folder was created to identify the six individual countries data. Following the clean datasets of each country, one complete dataset was compiled to reflect the whole sample for analysis.
+
+
+## Application of Analyses
+
+The main analysis for this research will be conducted using a combination of Pearson’s correlation, multiple regression, and logistic regression to explore the associations between mental, social, and lifestyle behaviors with physical outbursts in adolescence. First, Pearson's correlation will assess the strength and direction of the linear relationships between variables such as psychological distress, bullying, and substance use with physical outbursts. Scatter plots with lines of best fit will visualize these relationships, accompanied by r values to quantify the degree of correlation. This will provide a preliminary understanding of how each behavior is associated with physical outbursts. Additionally, logistic regression will be used for binary outcomes, such as whether or not a physical outburst occurred, to calculate odds ratios and identify which behaviors increase the likelihood of these events. Visualizations, including scatter plots and regression output tables, will support the interpretation of results, highlighting key predictors of physical outbursts.
+
+
+## Results
+
+Table 1 present basic information of the study participants, the study comprises of 9,105,756 youth across five South Asian countries
+<!-- In the code one can see that data from Bhutan was being processed -->
+. Bangladesh represented the largest proportion of the sample (56.13%), followed by Nepal (24.33%), Sri Lanka (14.83%), Afghanistan (4.45%), and Maldives (0.27%). The gender distribution showed a slight male predominance (57.77%) compared to females (41.25%), with 0.98% missing data. The sample primarily comprised adolescents aged 12-14 years (58.23%) and 15-17 years (39.41%), with smaller proportions in the extreme age groups (0.79% ≤11 years; 1.17% ≥18 years). Educational distribution revealed that half of the participants were in lower secondary education (50.43%), followed by middle secondary (42.55%) and higher secondary (6.14%). Substance use patterns indicated that the majority of youth (87.28%) reported no substance use, while 5% reported using one substance and 4.13% reported multiple substance use. Notably, among those who reported drug use, early initiation (<13 years) was more common (3.79%) than later initiation (1.05%).
+
+A concerning proportion of youth reported feeling lonely (60.12%) and 8.16% had considered suicide. The prevalence of physical fighting was substantial, with 30.22% of participants reporting engagement in fights. School attendance patterns showed that while 67.61% reported never skipping school, a notable proportion reported occasional (25.37%) or frequent (4.02%) truancy. Social support indicators revealed varied patterns of peer relationships. Nearly half of the participants (49.24%) reported having three or more close friends, while 7.17% reported having no close friends. Peer support was generally positive, with 52.86% reporting friends being helpful "most of the time" or "always." However, bullying emerged as a significant concern, with 32.71% experiencing bullying (30.08% for 1-9 days and 2.63% for 10 or more days).
+
+Food insecurity was notably prevalent, with 48.41% of participants reporting experiencing hunger either sometimes (38.72%) or often (9.69%). Injury experiences were diverse, with cut or stab wounds being the most common (18.69%), followed by other types of injuries including broken bones (4.6%) and head injuries (3.62%). Anthropometric measurements indicated a mean height corresponding to age-appropriate norms, though with considerable variation (mean weight: 45.8 kg, SD: 10.49; mean height measurement: 1.55 meters, SD: 0.1), noting that 1,548,634 participants had missing anthropometric data.
+
+<!-- Try to use kable (perhaps together with janitor or table1) to create these tables programmatically -->
+
+# Table 1: Sociodemographic and Basic Participants Information {#tbl-demographics}
+
+| Variables | Count (N) | Percentage (%) |
+|:----------|----------:|---------------:|
+| **Total** | 9,105,756 | |
+| **Country** | | |
+| Afghanistan | 405,124 | 4.45 |
+| Bangladesh | 5,111,218 | 56.13 |
+| Maldives | 24,153 | 0.27 |
+| Nepal | 2,215,179 | 24.33 |
+| Sri Lanka | 1,350,082 | 14.83 |
+| **Gender** | | |
+| Male | 5,260,312 | 57.77 |
+| Female | 3,755,871 | 41.25 |
+| Missing | 89,572 | 0.98 |
+| **Age Group** | | |
+| 11 years old or younger | 71,496 | 0.79 |
+| 12 to 14 years | 5,301,842 | 58.23 |
+| 15 to 17 years | 3,588,872 | 39.41 |
+| 18 years old or older | 106,134 | 1.17 |
+| Missing | 37,412 | 0.41 |
+| **Education Category** | | |
+| Higher Secondary | 558,715 | 6.14 |
+| Lower Secondary | 4,591,875 | 50.43 |
+| Middle Secondary | 3,874,353 | 42.55 |
+| Missing | 80,813 | 0.89 |
+| **Substance Use Category** | | |
+| None | 7,947,565 | 87.28 |
+| 1 Substance | 455,623 | 5.00 |
+| 2 Substances | 299,270 | 3.29 |
+| 3 Substances | 76,519 | 0.84 |
+| Missing | 326,779 | 3.59 |
+| **Drug Initiation Age** | | |
+| Never used | 8,340,864 | 91.60 |
+| <13 years of age | 345,207 | 3.79 |
+| 13-18 years of age | 95,806 | 1.05 |
+| Missing | 323,879 | 3.56 |
+| **Hunger Category** | | |
+| Never | 4,578,117 | 50.28 |
+| Often | 882,543 | 9.69 |
+| Sometimes | 3,526,090 | 38.72 |
+| Missing | 119,006 | 1.31 |
+| **School Truancy** | | |
+| Never | 6,156,654 | 67.61 |
+| Often | 366,201 | 4.02 |
+| Sometimes | 2,309,882 | 25.37 |
+| Missing | 273,018 | 3.00 |
+| **Felt Lonely** | | |
+| Yes | 5,473,949 | 60.12 |
+| No | 3,514,412 | 38.60 |
+| Missing | 117,394 | 1.29 |
+| **Considered Suicide** | | |
+| Yes | 742,980 | 8.16 |
+| No | 8,141,537 | 89.41 |
+| Missing | 221,238 | 2.43 |
+| **Was Injured And Type** | | |
+| Not seriously injured | 4,818,564 | 52.92 |
+| Broken bone/dislocated joint | 419,271 | 4.60 |
+| I had a cut or stab wound | 1,701,521 | 18.69 |
+| Concussion/head injury | 329,617 | 3.62 |
+| I had a gunshot wound | 27,850 | 0.31 |
+| I had a bad burn | 105,546 | 1.16 |
+| I was poisoned | 29,837 | 0.33 |
+| Something else happened to me | 587,265 | 6.45 |
+| Missing | 1,086,287 | 11.93 |
+| **Friends Helpful** | | |
+| Never | 1,272,819 | 13.98 |
+| Rarely | 675,839 | 7.42 |
+| Sometimes | 1,994,825 | 21.91 |
+| Most of the time | 2,809,273 | 30.85 |
+| Always | 2,004,448 | 22.01 |
+| Missing | 348,553 | 3.83 |
+| **Bullying** | | |
+| None | 5,896,455 | 64.76 |
+| 1-9 days | 2,739,382 | 30.08 |
+| 10 or more days | 239,236 | 2.63 |
+| Missing | 230,682 | 2.53 |
+| **Number of Close Friends** | | |
+| 0 | 652,691 | 7.17 |
+| 1 | 1,846,635 | 20.28 |
+| 2 | 1,983,655 | 21.78 |
+| 3 or more | 4,483,266 | 49.24 |
+| Missing | 139,509 | 1.53 |
+| **Engaged In Physical Fight** | | |
+| No | 6,317,619 | 69.38 |
+| Yes | 2,751,536 | 30.22 |
+| Missing | 36,600 | 0.40 |
+| **Anthropometric Measures** | **Total** | **Mean(SD)** |
+| Weight (Mtr) | 9,105,754 | 1.55(0.1) |
+| Height (Kg) | 9,105,754 | 45.8(10.49) |
+| Missing | 1,548,634 | -- |
+
+: Sociodemographic and basic characteristics of study participants (N=9,105,756)
+
+
+Table 2 a multivariable analysis 
+<!-- What kind of multivariable analysis? -->
+shows significant geographic variations among youths and physical fighting across South Asian countries. Notably, Sri Lankan youth demonstrate 2.62 times higher odds (95% CI: 1.91-3.58, p<0.001) of engaging in physical fights compared to reference group Afghani counterparts, while Bangladesh shows a protective effect with 58% lower odds (OR: 0.42, 95% CI: 0.31-0.59, p<0.001).
+<!-- In this case, it is not the most natural interpretation of the OR to say that lower odds for a country makes that country have a protective effect. The choice of a reference country is a matter of arbitrariness. If the youth from Bangladesh had not been born in that country, one would not immediately conclude they would have been born in Afghanistan. -->
+These differences reflect the complex interplay of sociocultural factors as well as countries’ variations that shape young people's behavioral responses.
+Gender emerges as a powerful predictor, with female students showing 56% lower odds of physical fighting (OR: 0.44, 95% CI: 0.36-0.54, p<0.001) compared to males. This substantial difference likely reflects not just biological factors, but deeply embedded societal norms and expectations that influence how young people, particularly boys, learn to express distress and resolve conflicts. The educational gradient reveals that student in lower secondary education face 1.78 times higher odds of fighting (95% CI: 1.41-2.26, p<0.001), highlighting a critical period when young adolescents might need additional support as they navigate complex social dynamics and emotional development.
+The mental health correlation shows a particularly clear picture with loneliness (OR: 1.42, 95% CI: 1.17-1.73), sleep difficulties (OR: 1.61, 95% CI: 1.36-1.91), and suicidal ideation (OR: 1.33, 95% CI: 1.03-1.71) all significantly increase the likelihood of physical fighting among youths. These associations prompt us that behind many aggressive encounters are young people struggling with profound emotional pain and isolation. When we see that serious injuries are associated with double odds of fighting (OR: 2.01, 95% CI: 1.61-2.52), we're likely observing a concerning cycle where violence begets violence.
+The socioeconomic indicators, in our data a hunger of youth shows, a frequent hunger increases physical fight odds by 77% (OR: 1.77, 95% CI: 1.05-2.97, p=0.031), while drug initiation between ages 13-18 more than doubles the odds (OR: 2.12, 95% CI: 1.19-3.79, p=0.011). These findings show how basic needs insecurity and substance use during crucial developmental periods can profoundly impact behavioral outcomes.
+
+
+# Table 2: Physical Fighting and Their Correlates {#tbl-correlates}
+
+| Variable | Category | OR (95% CI) | p-value |
+|:---------|:---------|:------------|:---------|
+| **Intercept** | -1.66814 | | |
+| **Country** | | | |
+| | Afghanistan | reference | |
+| | Bangladesh | 0.42 (0.31–0.59) | <0.001 |
+| | Maldives | 0.67 (0.50–0.89) | 0.007 |
+| | Nepal | 1.16 (0.85–1.58) | 0.345 |
+| | Sri Lanka | 2.62 (1.91–3.58) | <0.001 |
+| **Gender** | | | |
+| | Male | reference | |
+| | Female | 0.44 (0.36–0.54) | <0.001 |
+| **Education** | | | | 
+<!-- Shouldn´t the order be higher - middle - lower? -->
+| | Higher Secondary | reference | |
+| | Lower Secondary | 1.78 (1.41–2.26) | <0.001 |
+| | Middle Secondary | 1.55 (1.24–1.95) | <0.001 |
+| **Felt Lonely** | | | |
+| | No | reference | |
+| | Yes | 1.42 (1.17–1.73) | <0.001 |
+| **Could Not Sleep** | | | |
+| | No | reference | |
+| | Yes | 1.61 (1.36–1.91) | <0.001 |
+| **Considered Suicide** | | | |
+| | No | reference | |
+| | Yes | 1.33 (1.03–1.71) | 0.027 |
+| **Injuries** | | | |
+| *Bone Injury* | | | |
+| | No | reference | |
+| | Yes | 1.35 (0.91–2.01) | 0.134 |
+| *Cut Injury* | | | |
+| | No | reference | |
+| | Yes | 1.38 (0.98–1.94) | 0.066 |
+| *Head Injury* | | | |
+| | No | reference | |
+| | Yes | 1.26 (0.83–1.91) | 0.282 |
+| *Serious Injury* | | | |
+| | No | reference | |
+| | Yes | 2.01 (1.61–2.52) | <0.001 |
+| **Drug Initiation Age** | | | |
+| | Never Used | reference | |
+| | <13 Years | 1.13 (0.72–1.77) | 0.589 |
+| | 13-18 Years | 2.12 (1.19–3.79) | 0.011 |
+| **Hunger Category** | | | |
+| | Never | reference | |
+| | Sometimes | 1.20 (0.97–1.49) | 0.090 |
+| | Often | 1.77 (1.05–2.97) | 0.031 |
+| **School Truancy** | | | |
+| | Never | reference | |
+| | Sometimes | 1.25 (0.98–1.60) | 0.077 |
+| | Often | 1.15 (0.63–2.09) | 0.643 |
+
+: Multivariable analysis of factors associated with physical fighting among youth.
+
+<!-- Remember the space between # and the heading name -->
+
+##Discussion
+
+The purpose of this research investigation was to understand how mental, social, and lifestyle factors may be related to the likelihood of physical fighting occurrence in the adolescent population aged 11-18 years from five south Asian countries. Findings suggest that Sri Lankan youth, representing 15% of the population sample, were more than twice as likely to engage in physical fighting compared to the four other represented South Asian countries. A study conducted by (Rasalingam et al., 2022) observed Sri Lankan adolescents who engaged in physical fighting, experienced bullying, and food experienced, among other variables, were at an increased risk in reporting psychological distress (Rasalingam et al., 2022) Another research group was studying Ski Lankan adolescent children aged 13-15 years old to extrapolate the underpinnings of peer violence in schools. Results suggest that correlations between peer violence and relational violence emerged among the 13-year-old male adolescents, those experiencing mental health challenges, those in a dating relationship, missing school, having to witness physical fights, and children living in a crime-dense neighborhood (Wijeratne et al., 2014)  It is of note that Sri Lanka had been in a civil war from 1983 to 2009. This 25+ year war may impact adolescent development and act as an underlying mechanism towards physical fighting in Sri Lankan children at a greater likelihood than their counterpart. 
+
+Additionally, biological sex was a significant predictor in physical fighting, observing females were at 56% lower odds compared to males in physical fighting. A study conducted on Malaysian adolescents reported that being bullied was a significant factor in reporting physically fighting, and being male, using drugs, and drinking alcohol were also associated with those who reported physical fighting (Mat Hussin et al., 2014) Contrary to this finding, adolescents aged 13 to 17 years old from Porto, Portugal observed that in both biological sexes, physical fighting was associated with solo parenting living arrangements, particularly that being the mother. Early substance use (e.g., alcohol and cigarette usage) was associated with physical fights(Fraga et al., 2016)  Although biological sex may preclude societal expectations and norms, environmental conditions may play a significant role in physical fighting. This study recognized that having a father figure in the home may mediate or reduce this outcome in Portuguese adolescents. 
+
+Interestingly, children in lower secondary school, or grades 6 to 8 (e.g., middle school) were at 1.78 times higher odds of engaging in physical fighting. At this age, many hormonal and social changes begin to occur during puberty. This is a time when adolescents prefer to challenge their own peers rather than an adult or younger aged child.(Najman et al., 2009) wanted to study how early-onset puberty might impact aggressive tendencies in adolescent girls and boys into adulthood. Results suggest that males and females studied 14 years later both identified more symptoms of aggression and delinquency for those who had started puberty early. However, during the 21-year follow-up males did no longer exhibited higher measures of aggression/delinquency (Najman et al., 2009)This longitudinal study supports this data in providing a prospective approach to pubertal differences among adolescents and how it might impact physical outbursts, aggression, and delinquency later in life. 
+
+
+##
+
+```{r}
+library(here)
+library(knitr)
+
+include_graphics(here("results", "figures", "bmi_plot.jpeg"))
+
+
+```
+
+```{r}
+include_graphics(here("results", "figures", "alluvial_plot.jpeg"))
+
+```
+
+
+
+
+
+
+
+#Ref:
+
+Abio, A., Wilburn, J. K., Shaikh, M. A., & Wilson, M. L. (2020). School Violence Among a Nationally Representative Sample of Adolescents in Chile. Frontiers in Public Health, 8. https://doi.org/10.3389/fpubh.2020.00046
+Adolescent Development | Youth.gov. (n.d.). Retrieved November 5, 2024, from https://youth.gov/youth-topics/adolescent-health/adolescent-development
+Adolescent health. (n.d.). Retrieved November 5, 2024, from https://www.who.int/health-topics/adolescent-health
+Balocchini, E., Chiamenti, G., & Lamborghini, A. (2013). Adolescents: Which risks for their life and health? Journal of Preventive Medicine and Hygiene, 54(4), 191.
+Fraga, S., Ramos, E., & Barros, H. (2016). Family characteristics and health-related behaviours influence physical fighting involvement in late adolescence: A study from 13 to 17 years of age. Journal of Public Health, 24(6), 461–468. https://doi.org/10.1007/s10389-016-0736-5
+Jaworska, N., & MacQueen, G. (2015). Adolescence as a unique developmental period. Journal of Psychiatry & Neuroscience : JPN, 40(5), 291. https://doi.org/10.1503/jpn.150268
+Mat Hussin, S. F., Abd Aziz, N. S., Hasim, H., & Sahril, N. (2014). Prevalence and Factors Associated With Physical Fighting Among Malaysian Adolescents. Asia Pacific Journal of Public Health, 26(5_suppl), 108S-115S. https://doi.org/10.1177/1010539514542423
+Najman, J. M., Hayatbakhsh, M. R., McGee, T. R., Bor, W., O’Callaghan, M. J., & Williams, G. M. (2009). The Impact of Puberty on Aggression/Delinquency: Adolescence to Young Adulthood. Australian & New Zealand Journal of Criminology, 42(3), 369–386. https://doi.org/10.1375/acri.42.3.369
+Pringle, J., Mills, K., McAteer, J., Jepson, R., Hogg, E., Anand, N., & Blakemore, S.-J. (2016). A systematic review of adolescent physiological development and its relationship with health-related behaviour: A protocol. Systematic Reviews, 5(1), 3. https://doi.org/10.1186/s13643-015-0173-5
+Rasalingam, G., Rajalingam, A., Chandradasa, M., & Nath, M. (2022). Assessment of mental health problems among adolescents in Sri Lanka: Findings from the cross-sectional Global School-based Health Survey. Health Science Reports, 5(6), e886. https://doi.org/10.1002/hsr2.886
+Shaikh, M. A., Abio, A., Celedonia, K. L., & Lowery Wilson, M. (2019). Physical Fighting among School-Attending Adolescents in Pakistan: Associated Factors and Contextual Influences. International Journal of Environmental Research and Public Health, 16(24), 5039. https://doi.org/10.3390/ijerph16245039
+sitecontrol. (2014, September 4). Hidden in Plain Sight: A statistical analysis of violence against children. UNICEF DATA. https://data.unicef.org/resources/hidden-in-plain-sight-a-statistical-analysis-of-violence-against-children/
+Walsh, S. D., Molcho, M., Craig, W., Harel-Fisch, Y., Huynh, Q., Kukaswadia, A., Aasvee, K., Várnai, D., Ottova, V., Ravens-Sieberer, U., & Pickett, W. (2013). Physical and Emotional Health Problems Experienced by Youth Engaged in Physical Fighting and Weapon Carrying. PLoS ONE, 8(2), e56403. https://doi.org/10.1371/journal.pone.0056403
+Wijeratne, M. P., Seneviratne, R., Gunawardena, N., Lynch, C., Sandøy, I. F., & Ostbye, T. (2014). Correlates of Peer Violence Among 13- to 15-Year-Olds in Gampaha District Schools in Sri Lanka: Findings From a Comparison Between Violent and Non-Violent Adolescents. Sage Open, 4(3), 2158244014550616. https://doi.org/10.1177/2158244014550616
+
+
+
