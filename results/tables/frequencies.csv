@@ -21,8 +21,8 @@ substance_use,1,455623,5
 substance_use,2,299270,3.29
 substance_use,3,76519,0.84
 substance_use,NA,326779,3.59
-drug_initiation_cat, <13 years),345207,3.79
-drug_initiation_cat,13-18 years),95806,1.05
+drug_initiation_cat, <13 years,345207,3.79
+drug_initiation_cat,13-18 years,95806,1.05
 drug_initiation_cat,Never used,8340864,91.6
 drug_initiation_cat,NA,323879,3.56
 hunger_cat,Never,4578117,50.28
@@ -39,15 +39,6 @@ felt_lonely,NA,117394,1.29
 q24,Yes,742980,8.16
 q24,No,8141537,89.41
 q24,NA,221238,2.43
-q17,0 times,4158330,45.67
-q17,1 time,1998893,21.95
-q17,2 or 3 times,1081634,11.88
-q17,4 or 5 times,307379,3.38
-q17,6 or 7 times,149561,1.64
-q17,8 or 9 times,75586,0.83
-q17,10 or 11 times,45791,0.5
-q17,12 or more times,114378,1.26
-q17,NA,1174207,12.9
 q18,Not seriously injured,4818564,52.92
 q18,Broken bone/dislocated joint,419271,4.6
 q18,I had a cut or stab wound,1701521,18.69
